@@ -1,0 +1,452 @@
+* {
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+section {
+  margin: 5rem;
+}
+header h4 {
+  width: 20%;
+  float: left;
+  font-family: "Aboreto", cursive;
+
+  color: white;
+  margin-right: 650px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  padding: 5px;
+
+  margin-right: 10px;
+}
+.nav {
+  margin-left: 100px;
+}
+nav ul li a {
+  padding: 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+
+  color: black;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+nav ul li a:hover {
+  background-color: rgb(60, 108, 197);
+  height: 35 px;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+}
+
+header {
+  font-size: 35px;
+  padding: 5px;
+  text-align: center;
+  color: rgb(18, 207, 27);
+  background-image: url("images/img32.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin-bottom: 0px;
+}
+main {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.box1 {
+  width: 100%;
+
+  margin-bottom: 0px;
+  padding: 5px;
+}
+#p1 {
+  padding-top: 70px;
+}
+.box1 p {
+  font-family: "Roboto Mono", monospace;
+
+  padding-top: 20px;
+  font-size: 60px;
+
+  font-weight: 800;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  translate: transform 0.1s;
+}
+
+footer {
+  margin: 10px;
+  padding: 25px;
+  margin-top: 0px;
+  text-align: center;
+  background-color: slategrey;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+.footercard {
+  border-right: 2px solid white;
+  font-size: 30px;
+  margin: 30px;
+  padding: 10px;
+}
+.foot1 i {
+  padding: 10px;
+  text-decoration: none;
+}
+.foot1 a{
+ text-decoration:none;
+  color: rgb(8, 8, 8);
+}
+.foot2 a {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+}
+.foot3 {
+  color: thistle;
+}
+.foot3 #email,
+#owner {
+  color: black;
+}
+@keyframes fadeIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+.home .slide {
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover !important;
+  background-position: center !important;
+  min-height: 60rem;
+}
+.home .slide .content {
+  width: 85rem;
+  display: none;
+}
+.home .swiper-slide-active .content {
+  display: inline-block;
+}
+.home .slide .content span {
+  display: block;
+  font-size: 2.2rem;
+  color: black;
+  padding-bottom: 1rem;
+  animation: fadeIn 0.2s linear backwards 0.2s;
+  font-family: "Poppins", sans-serif;
+}
+.home .slide .content h3 {
+  margin-top: 2px;
+  font-size: 6vw;
+  color: #2859f7;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: black;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 0;
+  animation: fadeIn 0.2s linear backwards 0.4s;
+}
+.home .slide .content .btn {
+  animation: fadeIn 0.2s linear backwards 0.6s;
+}
+.home .swiper-button-next,
+.home .swiper-button-prev {
+  top: inherit;
+  left: inherit;
+  bottom: 0;
+  right: 0;
+  height: 5rem;
+  width: 5rem;
+  background: white;
+  color: black;
+}
+.home .swiper-button-next:hover,
+.home .swiper-button-prev:hover {
+  background: rgb(92, 92, 233);
+  color: white;
+}
+.home .swiper-button-next::after,
+.home .swiper-button-prev::after {
+  font-size: 2rem;
+}
+.home .swiper-button-prev {
+  right: 5rem;
+}
+main {
+  padding: 0;
+}
+.btn {
+  display: inline-block;
+  background: black;
+  margin-top: 1rem;
+  color: white;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgb(219, 46, 167);
+}
+.home-about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:2rem;
+}
+.home-about .image {
+  flex: 1 2 32.5rem;
+}
+.home-about .image img {
+  width: 100%;
+  border-radius: 50px 0 0 50px;
+  box-shadow: 5px 5px 10px 10px black;
+}
+.home-about .content {
+  flex: 1 1 41rem;
+  padding: 3rem;
+  background:gray;
+  box-shadow: 5px 5px 10px 10px black;
+  border-radius: 0 50px 50px 0;
+ font-size:40px;
+  color: white;
+}
+.home-about .content span {
+  color: rgb(240, 159, 243);
+}
+.home-about .content h3 {
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+}
+.home-about .content a {
+  justify-content: center;
+}
+.home-about .content p {
+  font-size: 2rem;
+  width:100%;
+ text-transform:none;
+  color:black;
+}
+.services .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5rem;
+  margin-left: 5rem;
+}
+
+.services {
+  padding: 5rem 10%;
+}
+.heading-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.services .box-container .box {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: cornflowerblue;
+  width: 20rem;
+  border-radius: 10px;
+}
+.services .box-container .box:hover {
+  background: black;
+}
+.services .box-container .box img {
+  height: 8rem;
+}
+.services .box-container .box h3 {
+  color: white;
+  font-size: 1.7rem;
+}
+.booking {
+  margin-top: 0;
+ 
+}
+.booking .book-form {
+  padding-top: 0;
+  padding: 2rem;
+  background: blueviolet;
+}
+.booking .book-form .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.booking .book-form .flex .inputBox {
+  flex: 1 1 41rem;
+}
+.booking .book-form .flex .inputBox input {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  font-size: 1.6rem;
+  color: black;
+  text-transform: none;
+  margin-top: 1.5rem;
+  border: blanchedalmond;
+}
+.booking .book-form .flex .inputBox select{
+    width: 100%;
+  padding: 1.2rem 1.4rem;
+  font-size: 1.6rem;
+  color: black;
+  text-transform: none;
+  margin-top: 1.5rem;
+  border: blanchedalmond;
+}
+.booking .book-form .flex .inputBox input:focus {
+  background: black;
+  color: white;
+}
+.booking .book-form .flex .inputBox input:focus::placeholder {
+  background: black;
+  color: white;
+}
+.booking .book-form .flex .inputBox span {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+.booking .book-form .btn {
+  margin-top: 2rem;
+  text-align: center;
+}
+.contact .content .number {
+  text-transform: none;
+}
+.book-head h1 {
+  color: white;
+}
+.number .link span{
+    font-size:30px;
+}
+
+@media (max-width: 800px) {
+    
+    .input-box{
+        padding:0;
+        margin:0;
+        width:100%;
+        font-size:10px;
+        
+    }
+    .home-about {
+        margin-right:0px;
+         margin-left:0px;
+         max-width:100%;
+         font-size:20px;
+    }
+.home-about .content p{
+      font-size:20px;
+    }
+    .swiper home-slider{
+        height:100px;
+    }
+  .home .slide .content h3 {
+    font-size: 3vh;
+  }
+  header {
+    font-size: 20px;
+  }
+  .home .slide .content span {
+    font-size: 2.5vh;
+  }
+  .heading-title {
+    font-size: 3.5rem;
+  }
+  .services .box-container {
+    margin-left: 2rem;
+  }
+  header h4 {
+    margin-left: 10px;
+    margin-right: 2px;
+    padding-right: 2px;
+    width: 100vh;
+    text-align: left;
+  }
+  .home-about .content,
+  .home-about .image img {
+    border-radius: 0;
+  }
+  .navhome {
+    margin-top: 40px;
+
+    text-align: left;
+  }
+  .box1 p {
+    font-size: 20px;
+  }
+  footer {
+    margin: 0px;
+    font-size: 20px;
+    grid-template-columns: 1fr;
+  }
+  .footercard {
+    font-size: 15px;
+    border-bottom: 2px solid white;
+    border-right: none;
+  }
+  .foot1 i {
+    padding: 15px;
+    padding-bottom: 10px;
+  }
+  .contact .heading-title{
+      width:100%;
+      font-size:20px;
+  }
+ .my-image{
+      width:100%;
+      margin-left:0px;
+      margin-right:0px;
+  }
+  .content{
+      width:100%;
+      font-size:20px;
+      margin-left:0px;
+  }
+  .my-image img{
+      width:200px;
+      position:center;
+  }
+ 
+  .my_image img{
+      width:100px;
+      position:center;
+      height:100px;
+  }
+  .number .link span{
+      font-size:10px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  nav ul {
+    display: flex;
+  }
+}

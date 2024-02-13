@@ -1,0 +1,171 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  box-sizing: border-box;
+}
+.pghead {
+  text-align: center;
+  padding: 50px 55px;
+  font-size: 45px;
+  background-image:url('images/img40.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-decoration-color:white;
+}
+.pghead h4{
+    font-size: 45px;
+    color:white;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.property-card {
+  border: 1px solid black;
+font-size:20px;
+  background-color: rgb(88, 97, 104);
+  margin-top: 50px;
+padding:20px 20px;
+margin-left:40px;
+margin-right:40px;
+  border-radius: 2px;
+  box-shadow: rgb(186, 182, 221) 10px 5px 5px 5px;
+  cursor: pointer;
+  color: white;
+}
+.booknow:hover {
+  transform: scale(1.2);
+}
+
+.cardimage {
+  padding: 15px 15px;
+  text-align: center;
+  float: left;
+  min-width: 200px;
+  max-width: 400px;
+
+  border-bottom: 2px solid white;
+}
+.cardimage img {
+
+   width: auto;
+  max-width:100%;
+  height:auto;
+  max-height:300px;
+  translate: transform 0.3s;
+  
+  
+}
+.cardimage img:hover {
+  transform: scale(1.1);
+}
+.cardimage h4 {
+  font-size: 20px;
+  color: rgb(40, 228, 33);
+  font-family: "Stylish", sans-serif;
+}
+.adress {
+  text-align: center;
+}
+.dist {
+  height: 50px;
+  text-align: center;
+}
+.pginfo {
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 15px;
+}
+.dist p {
+  color: solid bold white;
+  background-color: turquoise;
+  border-radius: 10px;
+  max-height: 100px;
+  min-height: 60px;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.dist span {
+  color: rgb(240, 10, 10);
+}
+.rating {
+  padding-left: 120px;
+}
+.rating p {
+  font-size: 20px;
+
+  margin-left: 30px;
+}
+.rating i {
+  white-space: 15px;
+  font-size: 20px;
+  color: rgb(235, 138, 12);
+}
+.rent a {
+  background-color: greenyellow;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.rent {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  translate: color 0.5s;
+}
+.rent:hover,
+.rent:focus {
+  color: rgb(228, 126, 126);
+}
+.facility {
+  margin-top: 20px;
+  margin-left: 110px;
+}
+.facility p {
+  font-size: 22px;
+  color: greenyellow;
+}
+.facility ul {
+  font-size: 18px;
+}
+
+.owner {
+  text-align: center;
+  font-size: 15px;
+}
+.price{
+    margin-top:5rem;
+}
+@media only screen and(max-width: 800px) {
+
+  .pginfo {
+    display: flex;
+   
+  }
+  .property-card {
+      display:flex;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .cardimage {
+    border-right: none;
+    border-bottom: 2px solid white;
+    width:100vh;
+    margin-left:50px;
+    padding:50px;
+  }
+  .cardimage img{
+      height:100px;
+      width:100rem;
+      
+  }
+}

@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-image: url("images/img17.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.rimg a {
+  text-decoration: none;
+  color: black;
+}
+.box {
+  border-radius: 50px;
+  margin: 20px;
+  background-color: mintcream;
+}
+nav {
+  display: flex;
+  background-image: url("images/img54.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+nav ul li {
+  display: flex;
+}
+
+form input {
+  background-color: white;
+  margin-left: 380px;
+  font-size: 20px;
+  padding-left: 30px;
+  width: 60vh;
+  height: 4rem;
+  color: black;
+  border-radius: 20px;
+}
+form button {
+  margin: 0px;
+  height: 4rem;
+  width: 7rem;
+  border-radius: 20px;
+  background-color: rgb(49, 167, 33);
+  font-size: 20px;
+}
+form ::placeholder {
+  font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  form {
+    width: 100px;
+    float: left;
+  }
+  form input {
+    width: 350px;
+    margin-left: 10px;
+  }
+  form button {
+    margin-top: 10px;
+    margin-left: 140px;
+  }
+}
