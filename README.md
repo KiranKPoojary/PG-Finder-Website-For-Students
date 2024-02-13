@@ -12,3 +12,11 @@ This website is already deployed in the live serever using Infinity Free web hos
 
 Website Link: https://pglocatorbykiran.epizy.com/
 
+## Screenshots
+<img src="./screenshots/img1.png"></img>
+
+<img src="./screenshots/img2.png"></img>
+
+<img src="./screenshots/img3.png"></img>
+
+<img src="./screenshots/img4.png"></img>
